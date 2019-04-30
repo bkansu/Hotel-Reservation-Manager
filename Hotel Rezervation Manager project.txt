@@ -1,15 +1,38 @@
-BİL 2002 Nesneye Yönelik Programlama 
+BÄ°L 2002 Nesneye YÃ¶nelik Programlama 
 
- Projelerinize not verilip değerlendirilirken aşağıdaki teknik gereksinim ve kıstaslara öncelikle dikkat edilecektir: o Projede geliştireceğiniz programınızda, ilgili tüm hesaplar, işlemler, değişkenler, vb. sizin ayrıca tanımlayacağınız sınıflar (class) içerisinde yer almalıdır. Bu gibi işlemler ve değişkenler, ana program içerisinde olmayacaktır. Ana programdan ise, bu sınıftan nesne / nesneler yaratılarak programın çalışması sağlanmalı ve gerekli veri girişleri ve hesaplama, ekrana yazdırma, vb. işlemlerin hepsinin bu nesne / nesneler üzerinden çağrılarak yapılması gerekmektedir. o Projenizde gerekli ve uygun olan yerlerde; ? Ana sınıflardan (base classes) türetilmiş alt sınıflar (derived classes), interface’ler ve kalıtım (inheritance) özellikleri kullanılmalıdır. ? Sarmalama (encapsulation) kullanılarak bazı metot (method) ve değişkenlerin farklı seviyelerde erişim kısıtlama olanakları (access modifiers) kullanılmalıdır. ? Hiçbir değişkene (public de olsa) doğrudan erişim yapılmamalı, bunun yerine property (get / set) kullanılmalıdır. ? Bir ya da birkaç method için çok biçimlilik (polymorphism) kullanılmalıdır (Compile time polymorphism; Overloading ve/veya Runtime polymorphism; Overriding). 
+ Projelerinize not verilip deÄŸerlendirilirken aÅŸaÄŸÄ±daki teknik gereksinim ve kÄ±staslara Ã¶ncelikle dikkat edilecektir:
+ Projede geliÅŸtireceÄŸiniz programÄ±nÄ±zda, ilgili tÃ¼m hesaplar, iÅŸlemler, deÄŸiÅŸkenler, vb. sizin ayrÄ±ca tanÄ±mlayacaÄŸÄ±nÄ±z sÄ±nÄ±flar (class)
+ iÃ§erisinde yer almalÄ±dÄ±r. Bu gibi iÅŸlemler ve deÄŸiÅŸkenler, ana program iÃ§erisinde olmayacaktÄ±r. Ana programdan ise, bu sÄ±nÄ±ftan nesne /
+ nesneler yaratÄ±larak programÄ±n Ã§alÄ±ÅŸmasÄ± saÄŸlanmalÄ± ve gerekli veri giriÅŸleri ve hesaplama, ekrana yazdÄ±rma, vb. iÅŸlemlerin hepsinin bu
+ nesne / nesneler Ã¼zerinden Ã§aÄŸrÄ±larak yapÄ±lmasÄ± gerekmektedir. o Projenizde gerekli ve uygun olan yerlerde; ? Ana sÄ±nÄ±flardan (base
+ classes) tÃ¼retilmiÅŸ alt sÄ±nÄ±flar (derived classes), interfaceâ€™ler ve kalÄ±tÄ±m (inheritance) Ã¶zellikleri kullanÄ±lmalÄ±dÄ±r. ? Sarmalama
+ (encapsulation) kullanÄ±larak bazÄ± metot (method) ve deÄŸiÅŸkenlerin farklÄ± seviyelerde eriÅŸim kÄ±sÄ±tlama olanaklarÄ± (access modifiers)
+ kullanÄ±lmalÄ±dÄ±r. ? HiÃ§bir deÄŸiÅŸkene (public de olsa) doÄŸrudan eriÅŸim yapÄ±lmamalÄ±, bunun yerine property (get / set) kullanÄ±lmalÄ±dÄ±r. ?
+ Bir ya da birkaÃ§ method iÃ§in Ã§ok biÃ§imlilik (polymorphism) kullanÄ±lmalÄ±dÄ±r (Compile time polymorphism; Overloading ve/veya Runtime
+ polymorphism; Overriding). 
 
  
- Otel Rezervasyon Sistemi:  
-İstenen rezervasyon sistemi, kullanıcıların bir otelden, otel odası rezervasyonu gerçekleştirebilecekleri bir yazılım uygulamasıdır. Sistem kullanıcıların, sistem üzerinden uygun koşullara sahip otel odalarının listelenmesi (Tek yataklı, Çift yataklı ve İkiz yataklı; Deniz manzaralı ve Havuz manzaralı vb..) ve istenen tarihler arasında boş odaların arasından rezervasyon yapmasını sağlayacaktır. Uygulamanızı konsol üzerinden veya form üzerinden gerçekleştirebilirsiniz. Sistem üzerinden rezervasyon gerçekleştiği zaman ilgili odanın rezerve olarak işaretlenerek devamında gelecek işlemlerde buna göre ele alınması gerekmektedir. Ayrıca istendiği taktirde gerçekleştirilmiş rezervasyonlar sistem üzerinden iptal edilebilecektir. 
-Uygulamanızda minimum 3 sınıf bulunmalıdır: Rezervasyon sınıfı, Otel sınıfı, Oda sınıfı. Bu sınıflara ek olarak başka sınıflar da tanımlayarak tasarımınızı detaylandırabilirsiniz.   
+ Otel Rezervasyon Sistemi:
+Ä°stenen rezervasyon sistemi, kullanÄ±cÄ±larÄ±n bir otelden, otel odasÄ± rezervasyonu gerÃ§ekleÅŸtirebilecekleri bir yazÄ±lÄ±m uygulamasÄ±dÄ±r.
+Sistem kullanÄ±cÄ±larÄ±n, sistem Ã¼zerinden uygun koÅŸullara sahip otel odalarÄ±nÄ±n listelenmesi (Tek yataklÄ±, Ã‡ift yataklÄ± ve Ä°kiz yataklÄ±;
+Deniz manzaralÄ± ve Havuz manzaralÄ± vb..) ve istenen tarihler arasÄ±nda boÅŸ odalarÄ±n arasÄ±ndan rezervasyon yapmasÄ±nÄ± saÄŸlayacaktÄ±r.
+UygulamanÄ±zÄ± konsol Ã¼zerinden veya form Ã¼zerinden gerÃ§ekleÅŸtirebilirsiniz. Sistem Ã¼zerinden rezervasyon gerÃ§ekleÅŸtiÄŸi zaman ilgili odanÄ±n
+rezerve olarak iÅŸaretlenerek devamÄ±nda gelecek iÅŸlemlerde buna gÃ¶re ele alÄ±nmasÄ± gerekmektedir. AyrÄ±ca istendiÄŸi taktirde
+gerÃ§ekleÅŸtirilmiÅŸ rezervasyonlar sistem Ã¼zerinden iptal edilebilecektir. 
+
+UygulamanÄ±zda minimum 3 sÄ±nÄ±f bulunmalÄ±dÄ±r: Rezervasyon sÄ±nÄ±fÄ±, Otel sÄ±nÄ±fÄ±, Oda sÄ±nÄ±fÄ±. Bu sÄ±nÄ±flara ek olarak baÅŸka sÄ±nÄ±flar da
+tanÄ±mlayarak tasarÄ±mÄ±nÄ±zÄ± detaylandÄ±rabilirsiniz.   
+
 Uygulama Gereksinimleri: 
-Otel sınıfı • Oda koleksiyonlarının tutulması, • Rezervasyon sınıf örneklerinin çağıracağı oda müsaitlik sorgu metotları, • Rezervasyon sınıf örneklerinin çağıracağı rezervasyonu gerçekleştirme metodu • Rezervasyon sınıf örneklerinin çağıracağı rezervasyonu iptal metodu, • Oteldeki odalarla ilgili doluluk oranı, belirli tipteki odalardaki doluluk oranı, belirli bir tarih için doluluk oranını hesaplayacak metotları sağlar. 
+Otel sÄ±nÄ±fÄ± â€¢ Oda koleksiyonlarÄ±nÄ±n tutulmasÄ±, â€¢ Rezervasyon sÄ±nÄ±f Ã¶rneklerinin Ã§aÄŸÄ±racaÄŸÄ± oda mÃ¼saitlik sorgu metotlarÄ±, â€¢ Rezervasyon
+sÄ±nÄ±f Ã¶rneklerinin Ã§aÄŸÄ±racaÄŸÄ± rezervasyonu gerÃ§ekleÅŸtirme metodu â€¢ Rezervasyon sÄ±nÄ±f Ã¶rneklerinin Ã§aÄŸÄ±racaÄŸÄ± rezervasyonu iptal metodu, â€¢
+Oteldeki odalarla ilgili doluluk oranÄ±, belirli tipteki odalardaki doluluk oranÄ±, belirli bir tarih iÃ§in doluluk oranÄ±nÄ± hesaplayacak
+metotlarÄ± saÄŸlar. 
 
-Oda sınıfı • Oda özelliklerinin tutulması, • Odanın tarihlere göre müsaitlik durum bilgisinin tutulması, • Otel sınıfı örnekleri tarafından çağrılacak rezervasyonu gerçekleştirme metodu, • Otel sınıfı örnekleri tarafından çağrılacak rezervasyonu iptal metodunu sağlar. 
-Rezervasyon sınıfı • Sistem üzerinden oda sorgularını gerçekleştirmek, • Rezervasyon isteğini otele iletmek, • Rezervasyon iptalini otele iletmek, • Otelin doluluk oranları ile ilgili istatistiki bilgileri otelden istemek işlemlerini sağlar.  
+Oda sÄ±nÄ±fÄ± â€¢ Oda Ã¶zelliklerinin tutulmasÄ±, â€¢ OdanÄ±n tarihlere gÃ¶re mÃ¼saitlik durum bilgisinin tutulmasÄ±, â€¢ Otel sÄ±nÄ±fÄ± Ã¶rnekleri
+tarafÄ±ndan Ã§aÄŸrÄ±lacak rezervasyonu gerÃ§ekleÅŸtirme metodu, â€¢ Otel sÄ±nÄ±fÄ± Ã¶rnekleri tarafÄ±ndan Ã§aÄŸrÄ±lacak rezervasyonu iptal metodunu
+saÄŸlar. 
+Rezervasyon sÄ±nÄ±fÄ± â€¢ Sistem Ã¼zerinden oda sorgularÄ±nÄ± gerÃ§ekleÅŸtirmek, â€¢ Rezervasyon isteÄŸini otele iletmek, â€¢ Rezervasyon iptalini otele
+iletmek, â€¢ Otelin doluluk oranlarÄ± ile ilgili istatistiki bilgileri otelden istemek iÅŸlemlerini saÄŸlar.  
  
-Başarılar, iyi çalışmalar 
+BaÅŸarÄ±lar, iyi Ã§alÄ±ÅŸmalar 
